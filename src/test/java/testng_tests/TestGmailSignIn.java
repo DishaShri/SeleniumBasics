@@ -1,4 +1,4 @@
-package testngTests;
+package testng_tests;
 
 import io.github.bonigarcia.wdm.config.DriverManagerType;
 import io.github.bonigarcia.wdm.managers.FirefoxDriverManager;
