@@ -28,7 +28,7 @@ public class TestGmailSignIn {
     @Test
     void testHeadingText() {
         assert GmailSignInPage.headingText(driver).isDisplayed();
-        assert GmailSignInPage.headingText(driver).getText().equals("Sign In");
+        assert GmailSignInPage.headingText(driver).getText().equals("Sign in");
     }
 
     @Test
@@ -45,7 +45,7 @@ public class TestGmailSignIn {
     @Test
     void testForgotEmail() {
         assert GmailSignInPage.forgotEmail(driver).isDisplayed();
-        assert GmailSignInPage.forgotEmail(driver).getText().equals("Forgot Email?");
+        assert GmailSignInPage.forgotEmail(driver).getText().equals("Forgot email?");
     }
 
     @Test
